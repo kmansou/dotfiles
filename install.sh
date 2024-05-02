@@ -12,3 +12,15 @@ cd ~/.dotfiles
 # Downloading submodules
 git submodule init
 git submodule update --recursive
+
+
+# brew stuff
+brew install fd
+brew install bat
+brew install diff-so-fancy
+
+brew install fzf
+$(brew --prefix)/opt/fzf/install
+
+brew install node
+npm install -g tldr
