@@ -6,6 +6,7 @@ alias vu="vagrant up"
 
 #git aliases
 alias g='git'
+alias ga='git add'
 alias gs='git status'
 alias gco='git checkout'
 alias gr='git rebase'

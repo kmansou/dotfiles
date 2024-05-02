@@ -114,17 +114,17 @@ bindkey '^X^E' edit-command-line
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-git()
-{
-	if [[ $# -ge 1 && ("$1" == "status" || "$1" == "s") ]] then
-		# storing the last git status output into a file to be later
-		# read by other ruby command
-		command git $@
-		command git $@ > .git_status_cache
-	else
-		command git $@
-		fi
-}
+#git()
+#{
+#	if [[ $# -ge 1 && ("$1" == "status" || "$1" == "s") ]] then
+#		# storing the last git status output into a file to be later
+#		# read by other ruby command
+#		command git $@
+#		command git $@ > .git_status_cache
+#	else
+#		command git $@
+#		fi
+#}
 
 man() {
   /usr/bin/man $* | \
