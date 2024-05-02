@@ -1,7 +1,3 @@
-[submodule "vendor/zsh-syntax-highlighting"]
-	path = vendor/zsh-syntax-highlighting
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git 
-
 [submodule "vendor/gruvbox"]
 	path = vendor/gruvbox
 	url = https://github.com/kmansou/gruvbox
